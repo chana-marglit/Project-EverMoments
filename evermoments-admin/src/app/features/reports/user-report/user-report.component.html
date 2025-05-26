@@ -1,0 +1,51 @@
+<div class="user-report">
+    <h2>דוח משתמשים</h2>
+    
+    <div class="report-filters">
+      <div class="form-group">
+        <input type="text" placeholder="חיפוש משתמש..." class="form-control">
+      </div>
+      <div class="form-group">
+        <select class="form-control">
+          <option value="all">כל המשתמשים</option>
+          <option value="active">משתמשים פעילים</option>
+          <option value="inactive">משתמשים לא פעילים</option>
+        </select>
+      </div>
+      <button class="btn btn-primary">סנן</button>
+    </div>
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th>מזהה</th>
+          <th>שם משתמש</th>
+          <th>מספר אלבומים</th>
+          <th>מספר תמונות</th>
+          <th>נפח אחסון</th>
+          <th>פעילות אחרונה</th>
+          <th>פעולות</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of userStats">
+          <td>{{ user.userId }}</td>
+          <td>{{ user.userName }}</td>
+          <td>{{ user.albumCount }}</td>
+          <td>{{ user.imageCount }}</td>
+          <td>{{ formatBytes(user.storageUsed) }}</td>
+          <td>{{ user.lastActive | date:'dd/MM/yyyy HH:mm' }}</td>
+          <td>
+            <a [routerLink]="['/users', user.userId]" class="btn btn-sm btn-info">פרטים</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="chart-section">
+      <h3>ניתוח פעילות משתמשים</h3>
+      <div class="chart-placeholder" style="height: 300px; background-color: #f5f5f5; display: flex; align-items: center; justify-content: center;">
+        גרף פעילות משתמשים
+      </div>
+    </div>
+  </div>

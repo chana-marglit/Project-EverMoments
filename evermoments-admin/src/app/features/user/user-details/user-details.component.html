@@ -1,0 +1,119 @@
+<div class="user-details-container">
+    <h1 class="page-title">פרטי משתמש</h1>
+  
+    <div class="actions-bar">
+      <button class="btn btn-secondary" routerLink="/users">
+        <i class="fas fa-arrow-right"></i> חזרה לרשימת המשתמשים
+      </button>
+    </div>
+  
+    <div *ngIf="loading" class="loading-spinner">
+      <div class="spinner"></div>
+      <p>טוען נתונים...</p>
+    </div>
+  
+    <div *ngIf="error" class="error-message">
+      {{ error }}
+    </div>
+  
+    <div *ngIf="!loading && user" class="user-details-content">
+      <div class="user-profile">
+        <div class="user-avatar">
+          <div class="avatar-placeholder">
+            {{ user.firstName.charAt(0) }}{{ user.lastName.charAt(0) }}
+          </div>
+        </div>
+        
+        <div class="user-info">
+          <h2>{{ user.firstName }} {{ user.lastName }}</h2>
+          <p class="user-email">{{ user.email }}</p>
+          <p class="user-role">
+            <span class="role-badge" [ngClass]="{'admin-role': user.role === 'admin'}">
+              {{ user.role === 'admin' ? 'מנהל' : 'משתמש' }}
+            </span>
+          </p>
+          <p class="user-joined">הצטרף בתאריך: {{ user.createdAt | date:'dd/MM/yyyy' }}</p>
+          
+          <div class="user-actions">
+            <button class="btn btn-primary" [routerLink]="['/users/edit', user.id]">
+              <i class="fas fa-edit"></i> ערוך משתמש
+            </button>
+            <button class="btn btn-danger" (click)="deleteUser()">
+              <i class="fas fa-trash"></i> מחק משתמש
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="user-stats-section" *ngIf="userStats">
+        <h3>סטטיסטיקות משתמש</h3>
+        
+        <div class="stats-cards">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-images"></i>
+            </div>
+            <div class="stat-content">
+              <h4>תמונות</h4>
+              <p class="stat-value">{{ userStats.imageCount }}</p>
+            </div>
+          </div>
+  
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-folder"></i>
+            </div>
+            <div class="stat-content">
+              <h4>אלבומים</h4>
+              <p class="stat-value">{{ userStats.albumCount }}</p>
+            </div>
+          </div>
+  
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="stat-content">
+              <h4>אחסון</h4>
+              <p class="stat-value">{{ formatBytes(userStats.storageUsed) }}</p>
+            </div>
+          </div>
+  
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="stat-content">
+              <h4>פעילות אחרונה</h4>
+              <p class="stat-value">{{ userStats.lastActive | date:'dd/MM/yyyy HH:mm' }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="user-logs-section" *ngIf="userLogs.length > 0">
+        <h3>יומן פעילות אחרונה</h3>
+        
+        <table class="logs-table">
+          <thead>
+            <tr>
+              <th>פעולה</th>
+              <th>תיאור</th>
+              <th>תאריך</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let log of userLogs">
+              <td>{{ log.action }}</td>
+              <td>{{ log.description }}</td>
+              <td>{{ log.createdAt | date:'dd/MM/yyyy HH:mm' }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+      <div *ngIf="userLogs.length === 0" class="no-logs">
+        <p>אין פעילות להצגה</p>
+      </div>
+    </div>
+  </div>

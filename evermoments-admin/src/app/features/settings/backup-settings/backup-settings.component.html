@@ -1,0 +1,33 @@
+<div class="backup-settings">
+    <h2>גיבוי ושחזור</h2>
+    
+    <div class="backup-section">
+      <h3>גיבוי מערכת</h3>
+      <p>צור גיבוי מלא של נתוני המערכת.</p>
+      <button class="btn btn-primary">צור גיבוי</button>
+    </div>
+    
+    <div class="restore-section">
+      <h3>שחזור מגיבוי</h3>
+      <p>שחזר את המערכת מקובץ גיבוי קיים.</p>
+      <input type="file" class="form-control">
+      <button class="btn btn-warning mt-2">שחזר מגיבוי</button>
+    </div>
+    
+    <div class="schedule-section">
+      <h3>גיבוי אוטומטי</h3>
+      <div class="form-check">
+        <input type="checkbox" id="enableAutoBackup" class="form-check-input">
+        <label for="enableAutoBackup" class="form-check-label">הפעל גיבוי אוטומטי</label>
+      </div>
+      <div class="form-group mt-2">
+        <label for="backupFrequency">תדירות גיבוי</label>
+        <select id="backupFrequency" class="form-control">
+          <option value="daily">יומי</option>
+          <option value="weekly">שבועי</option>
+          <option value="monthly">חודשי</option>
+        </select>
+      </div>
+      <button class="btn btn-primary mt-2">שמור הגדרות</button>
+    </div>
+  </div>

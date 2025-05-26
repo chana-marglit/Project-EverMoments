@@ -1,0 +1,48 @@
+<div class="logs-container">
+    <h1>יומן פעילות</h1>
+    
+    <div class="filters">
+      <div class="form-group">
+        <input type="text" placeholder="חיפוש..." class="form-control">
+      </div>
+      <div class="form-group">
+        <select class="form-control">
+          <option value="">כל הפעולות</option>
+          <option value="login">התחברות</option>
+          <option value="upload">העלאת תמונה</option>
+          <option value="create">יצירת אלבום</option>
+        </select>
+      </div>
+    </div>
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th>מזהה</th>
+          <th>משתמש</th>
+          <th>פעולה</th>
+          <th>תיאור</th>
+          <th>תאריך</th>
+          <th>פעולות</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let log of logs">
+          <td>{{ log.id }}</td>
+          <td>{{ log.userName }}</td>
+          <td>{{ log.action }}</td>
+          <td>{{ log.description }}</td>
+          <td>{{ log.createdAt | date:'dd/MM/yyyy HH:mm' }}</td>
+          <td>
+            <a [routerLink]="['/logs', log.id]" class="btn btn-sm btn-info">פרטים</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="pagination">
+      <button class="btn btn-sm btn-outline-primary">הקודם</button>
+      <span class="mx-2">עמוד 1 מתוך 5</span>
+      <button class="btn btn-sm btn-outline-primary">הבא</button>
+    </div>
+  </div>

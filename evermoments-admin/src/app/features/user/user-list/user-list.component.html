@@ -1,0 +1,76 @@
+<div class="user-list-container">
+    <h1 class="page-title">ניהול משתמשים</h1>
+    
+    <div class="actions-bar">
+      <button class="btn btn-primary" routerLink="/users/create">
+        <i class="fas fa-plus"></i> הוסף משתמש חדש
+      </button>
+    </div>
+  
+    <div *ngIf="loading" class="loading-spinner">
+      <div class="spinner"></div>
+      <p>טוען משתמשים...</p>
+    </div>
+  
+    <div *ngIf="error" class="error-message">
+      {{ error }}
+    </div>
+  
+    <div *ngIf="!loading && !error" class="user-list-content">
+      <table class="users-table">
+        <thead>
+          <tr>
+            <th>מזהה</th>
+            <th>שם מלא</th>
+            <th>דוא"ל</th>
+            <th>תפקיד</th>
+            <th>תאריך הצטרפות</th>
+            <th>פעולות</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{ user.id }}</td>
+            <td>{{ user.firstName }} {{ user.lastName }}</td>
+            <td>{{ user.email }}</td>
+            <td>
+              <span class="role-badge" [ngClass]="{'admin-role': user.role === 'admin'}">
+                {{ user.role === 'admin' ? 'מנהל' : 'משתמש' }}
+              </span>
+            </td>
+            <td>{{ user.createdAt | date:'dd/MM/yyyy' }}</td>
+            <td class="actions-cell">
+              <button class="btn-icon" [routerLink]="['/users', user.id]">
+                <i class="fas fa-eye"></i>
+              </button>
+              <button class="btn-icon" [routerLink]="['/users/edit', user.id]">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn-icon delete" (click)="deleteUser(user.id)">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  
+      <div *ngIf="users.length === 0" class="no-data">
+        <p>אין משתמשים להצגה</p>
+      </div>
+  
+      <div *ngIf="totalUsers > pageSize" class="pagination-container">
+        <ngx-pagination
+          [totalItems]="totalUsers"
+          [itemsPerPage]="pageSize"
+          [(currentPage)]="currentPage"
+          (pageChange)="onPageChange($event)"
+          [maxSize]="5"
+          [directionLinks]="true"
+          [autoHide]="true"
+          [responsive]="true"
+          previousLabel="הקודם"
+          nextLabel="הבא"
+        ></ngx-pagination>
+      </div>
+    </div>
+  </div>
