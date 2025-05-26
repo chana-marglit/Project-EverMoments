@@ -1,0 +1,634 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-service\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|solutionrelative:evermoments-service\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\interfaces\\is3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\interfaces\\is3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\evermoments-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\evermoments-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-service\\visionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|solutionrelative:evermoments-service\\visionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-service\\evermoments-service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|solutionrelative:evermoments-service\\evermoments-service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-data\\evermoments-data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|solutionrelative:evermoments-data\\evermoments-data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\ancient-aquifer-442014-n0-4609d1c2fbf8.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Roaming\\Microsoft\\UserSecrets\\4fc364a2-cf2a-4f8c-9f96-01858d6681fb\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|solutionrelative:evermoments-service\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-data\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|solutionrelative:evermoments-data\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-data\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|solutionrelative:evermoments-data\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|solutionrelative:evermoments-data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-data\\migrations\\20250518102553_addfilenametoimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|solutionrelative:evermoments-data\\migrations\\20250518102553_addfilenametoimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-data\\migrations\\20250323184833_migrationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|solutionrelative:evermoments-data\\migrations\\20250323184833_migrationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\dto\\imageresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\dto\\imageresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\dto\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\dto\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\models\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\models\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\models\\saveimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\models\\saveimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\interfaces\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\interfaces\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\repositories\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\repositories\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD4BBA9-A8D6-4F62-9AE4-998C38689CCF}|EverMoments-Api\\EverMoments-Api.csproj|solutionrelative:evermoments-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D033B1B8-CA27-4015-AFAB-B588BE39465C}|EverMoments-Service\\EverMoments-Service.csproj|solutionrelative:evermoments-service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-core\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9BCF4B-F88F-4ED1-9606-89A615B908A2}|EverMoments-Core\\EverMoments-Core.csproj|solutionrelative:evermoments-core\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|c:\\users\\user\\desktop\\finelevermoments\\evermoments-api\\evermoments-data\\migrations\\20250518140544_addimagetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E6B3D3-3C4E-4669-B964-35D4DAC94647}|EverMoments-Data\\EverMoments-Data.csproj|solutionrelative:evermoments-data\\migrations\\20250518140544_addimagetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 35,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EverMoments-Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\appsettings.Development.json",
+              "RelativeToolTip": "EverMoments-Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-25T23:43:48.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EverMoments-Service.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\EverMoments-Service.csproj",
+              "RelativeDocumentMoniker": "EverMoments-Service\\EverMoments-Service.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\EverMoments-Service.csproj",
+              "RelativeToolTip": "EverMoments-Service\\EverMoments-Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T22:29:38.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ancient-aquifer-442014-n0-4609d1c2fbf8.json",
+              "DocumentMoniker": "C:\\Users\\User\\ancient-aquifer-442014-n0-4609d1c2fbf8.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\ancient-aquifer-442014-n0-4609d1c2fbf8.json",
+              "ToolTip": "C:\\Users\\User\\ancient-aquifer-442014-n0-4609d1c2fbf8.json",
+              "RelativeToolTip": "..\\..\\..\\ancient-aquifer-442014-n0-4609d1c2fbf8.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T21:44:33.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EverMoments-Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EverMoments-Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwD4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T15:31:13.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VisionService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\VisionService.cs",
+              "RelativeDocumentMoniker": "EverMoments-Service\\VisionService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\VisionService.cs",
+              "RelativeToolTip": "EverMoments-Service\\VisionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T21:15:07.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Roaming\\Microsoft\\UserSecrets\\4fc364a2-cf2a-4f8c-9f96-01858d6681fb\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\4fc364a2-cf2a-4f8c-9f96-01858d6681fb\\secrets.json",
+              "ToolTip": "C:\\Users\\User\\AppData\\Roaming\\Microsoft\\UserSecrets\\4fc364a2-cf2a-4f8c-9f96-01858d6681fb\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\4fc364a2-cf2a-4f8c-9f96-01858d6681fb\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T17:27:56.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250518140544_AddImageTable.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Migrations\\20250518140544_AddImageTable.cs",
+              "RelativeDocumentMoniker": "EverMoments-Data\\Migrations\\20250518140544_AddImageTable.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Migrations\\20250518140544_AddImageTable.cs",
+              "RelativeToolTip": "EverMoments-Data\\Migrations\\20250518140544_AddImageTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:05:44.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250323184833_MigrationName.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Migrations\\20250323184833_MigrationName.cs",
+              "RelativeDocumentMoniker": "EverMoments-Data\\Migrations\\20250323184833_MigrationName.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Migrations\\20250323184833_MigrationName.cs",
+              "RelativeToolTip": "EverMoments-Data\\Migrations\\20250323184833_MigrationName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:03:50.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ImageResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\DTO\\ImageResponseDto.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\DTO\\ImageResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\DTO\\ImageResponseDto.cs",
+              "RelativeToolTip": "EverMoments-Core\\DTO\\ImageResponseDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:54:27.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\LogsController.cs",
+              "RelativeDocumentMoniker": "EverMoments-Api\\Controllers\\LogsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\LogsController.cs",
+              "RelativeToolTip": "EverMoments-Api\\Controllers\\LogsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:47:55.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\DTO\\ImageDto.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\DTO\\ImageDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\DTO\\ImageDto.cs",
+              "RelativeToolTip": "EverMoments-Core\\DTO\\ImageDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:45:28.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250518102553_AddFileNameToImage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Migrations\\20250518102553_AddFileNameToImage.cs",
+              "RelativeDocumentMoniker": "EverMoments-Data\\Migrations\\20250518102553_AddFileNameToImage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Migrations\\20250518102553_AddFileNameToImage.cs",
+              "RelativeToolTip": "EverMoments-Data\\Migrations\\20250518102553_AddFileNameToImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:25:53.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IS3Service.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Interfaces\\IS3Service.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Interfaces\\IS3Service.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Interfaces\\IS3Service.cs",
+              "RelativeToolTip": "EverMoments-Core\\Interfaces\\IS3Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:19:49.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "S3Service.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\S3Service.cs",
+              "RelativeDocumentMoniker": "EverMoments-Service\\S3Service.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\S3Service.cs",
+              "RelativeToolTip": "EverMoments-Service\\S3Service.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T07:36:56.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "EverMoments-Api\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "EverMoments-Api\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwCQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:55:51.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EverMoments-Data.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\EverMoments-Data.csproj",
+              "RelativeDocumentMoniker": "EverMoments-Data\\EverMoments-Data.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\EverMoments-Data.csproj",
+              "RelativeToolTip": "EverMoments-Data\\EverMoments-Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-04T22:23:18.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EverMoments-Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EverMoments-Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T22:21:55.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EverMoments-Api.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\EverMoments-Api.csproj",
+              "RelativeDocumentMoniker": "EverMoments-Api\\EverMoments-Api.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\EverMoments-Api.csproj",
+              "RelativeToolTip": "EverMoments-Api\\EverMoments-Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-04T22:13:27.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SaveImage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\SaveImage.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Models\\SaveImage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\SaveImage.cs",
+              "RelativeToolTip": "EverMoments-Core\\Models\\SaveImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T21:57:42.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Program.cs",
+              "RelativeDocumentMoniker": "EverMoments-Api\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Program.cs",
+              "RelativeToolTip": "EverMoments-Api\\Program.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:58:27.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Interfaces\\IImageService.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Interfaces\\IImageService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Interfaces\\IImageService.cs",
+              "RelativeToolTip": "EverMoments-Core\\Interfaces\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:34:41.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Repositories\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Repositories\\IImageRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Repositories\\IImageRepository.cs",
+              "RelativeToolTip": "EverMoments-Core\\Repositories\\IImageRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:34:12.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Models\\Image.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\Image.cs",
+              "RelativeToolTip": "EverMoments-Core\\Models\\Image.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:33:59.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Repositories\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "EverMoments-Data\\Repositories\\ImageRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Repositories\\ImageRepository.cs",
+              "RelativeToolTip": "EverMoments-Data\\Repositories\\ImageRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:33:44.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\ImageService.cs",
+              "RelativeDocumentMoniker": "EverMoments-Service\\ImageService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\ImageService.cs",
+              "RelativeToolTip": "EverMoments-Service\\ImageService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:33:32.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Repositories\\AlbumRepository.cs",
+              "RelativeDocumentMoniker": "EverMoments-Data\\Repositories\\AlbumRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Data\\Repositories\\AlbumRepository.cs",
+              "RelativeToolTip": "EverMoments-Data\\Repositories\\AlbumRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:19:43.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IAlbumService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Interfaces\\IAlbumService.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Interfaces\\IAlbumService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Interfaces\\IAlbumService.cs",
+              "RelativeToolTip": "EverMoments-Core\\Interfaces\\IAlbumService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:19:30.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Repositories\\IAlbumRepository.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Repositories\\IAlbumRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Repositories\\IAlbumRepository.cs",
+              "RelativeToolTip": "EverMoments-Core\\Repositories\\IAlbumRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:19:19.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Models\\Album.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\Album.cs",
+              "RelativeToolTip": "EverMoments-Core\\Models\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:18:49.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AlbumsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\AlbumsController.cs",
+              "RelativeDocumentMoniker": "EverMoments-Api\\Controllers\\AlbumsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\AlbumsController.cs",
+              "RelativeToolTip": "EverMoments-Api\\Controllers\\AlbumsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:14:02.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Models\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\AuthResponse.cs",
+              "RelativeToolTip": "EverMoments-Core\\Models\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T19:22:07.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "EverMoments-Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Service\\AuthService.cs",
+              "RelativeToolTip": "EverMoments-Service\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T19:17:01.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "EverMoments-Core\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T19:16:38.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\AuthRequest.cs",
+              "RelativeDocumentMoniker": "EverMoments-Core\\Models\\AuthRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Core\\Models\\AuthRequest.cs",
+              "RelativeToolTip": "EverMoments-Core\\Models\\AuthRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T19:15:49.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EverMoments-Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EverMoments-Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABBwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T19:11:48.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\appsettings.json",
+              "RelativeDocumentMoniker": "EverMoments-Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\appsettings.json",
+              "RelativeToolTip": "EverMoments-Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T17:30:52.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "EverMoments-Api\\Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "EverMoments-Api\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAowIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:27:56.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "EverMoments-Api\\Controllers\\ImagesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\finelEvermoments\\EverMoments-Api\\EverMoments-Api\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "EverMoments-Api\\Controllers\\ImagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:08:35.323Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
