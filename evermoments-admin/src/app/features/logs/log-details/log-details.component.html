@@ -1,0 +1,30 @@
+<div class="log-details">
+    <h1>פרטי רשומת יומן #{{ logId }}</h1>
+    
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <p><strong>מזהה:</strong> {{ log.id }}</p>
+            <p><strong>משתמש:</strong> {{ log.userName }} (ID: {{ log.userId }})</p>
+            <p><strong>פעולה:</strong> {{ log.action }}</p>
+            <p><strong>תיאור:</strong> {{ log.description }}</p>
+          </div>
+          <div class="col-md-6">
+            <p><strong>תאריך:</strong> {{ log.createdAt | date:'dd/MM/yyyy HH:mm:ss' }}</p>
+            <p><strong>כתובת IP:</strong> {{ log.ipAddress }}</p>
+            <p><strong>דפדפן:</strong> {{ log.userAgent }}</p>
+          </div>
+        </div>
+        
+        <div class="additional-data">
+          <h3>מידע נוסף</h3>
+          <pre>{{ log.additionalData | json }}</pre>
+        </div>
+      </div>
+    </div>
+    
+    <div class="actions mt-3">
+      <button class="btn btn-primary" routerLink="/logs">חזרה לרשימה</button>
+    </div>
+  </div>

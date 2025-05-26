@@ -1,0 +1,46 @@
+<div class="reports-container">
+    <h1>דוחות וסטטיסטיקות</h1>
+    
+    <div class="reports-nav">
+      <a routerLink="/reports" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">סקירה כללית</a>
+      <a routerLink="/reports/system" routerLinkActive="active">דוח מערכת</a>
+      <a routerLink="/reports/users" routerLinkActive="active">דוח משתמשים</a>
+    </div>
+    
+    <div class="reports-overview">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">סיכום משתמשים</h5>
+              <p class="card-text">סך הכל: 120 משתמשים</p>
+              <p class="card-text">חדשים החודש: 15</p>
+              <a routerLink="/reports/users" class="btn btn-primary">צפה בדוח מלא</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">סיכום תמונות</h5>
+              <p class="card-text">סך הכל: 1,250 תמונות</p>
+              <p class="card-text">הועלו החודש: 320</p>
+              <a routerLink="/reports/system" class="btn btn-primary">צפה בדוח מלא</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">ניצול אחסון</h5>
+              <p class="card-text">נוצל: 25GB מתוך 100GB</p>
+              <p class="card-text">אחוז ניצול: 25%</p>
+              <a routerLink="/reports/system" class="btn btn-primary">צפה בדוח מלא</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

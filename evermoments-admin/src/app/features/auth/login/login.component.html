@@ -1,0 +1,49 @@
+<div class="login-container">
+    <div class="login-card">
+      <div class="login-header">
+        <h1>EverMoments</h1>
+        <h2>פאנל ניהול</h2>
+      </div>
+  
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="login-form">
+        <div class="form-group">
+          <label for="email">דוא"ל</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': loginForm.get('email')?.touched && loginForm.get('email')?.invalid }"
+          />
+          <div *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.invalid" class="invalid-feedback">
+            <div *ngIf="loginForm.get('email')?.errors?.['required']">דוא"ל נדרש</div>
+            <div *ngIf="loginForm.get('email')?.errors?.['email']">דוא"ל לא תקין</div>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="password">סיסמה</label>
+          <input
+            type="password"
+            id="password"
+            formControlName="password"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': loginForm.get('password')?.touched && loginForm.get('password')?.invalid }"
+          />
+          <div *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid" class="invalid-feedback">
+            <div *ngIf="loginForm.get('password')?.errors?.['required']">סיסמה נדרשת</div>
+          </div>
+        </div>
+  
+        <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+  
+        <div class="form-group">
+          <button type="submit" [disabled]="loginForm.invalid || loading" class="btn btn-primary btn-block">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            התחברות
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
