@@ -320,7 +320,7 @@
 // };
 import axios from "axios"
 
-const API_URL = "http://localhost:5233/api"
+const API_URL =import.meta.env.VITE_API_BASE + "/api";
 
 export const apiClient = axios.create({
   baseURL: API_URL,
