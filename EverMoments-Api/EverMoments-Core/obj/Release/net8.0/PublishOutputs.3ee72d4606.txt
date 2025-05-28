@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\publish\EverMoments-Core.dll
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\publish\EverMoments-Core.deps.json
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\publish\EverMoments-Core.pdb
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\publish\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\publish\Microsoft.Extensions.Primitives.dll

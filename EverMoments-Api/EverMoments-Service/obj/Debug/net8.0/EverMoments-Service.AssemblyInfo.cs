@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EverMoments-Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d9ec2836b5a647fe7e4853af920f3c68a93258e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+245223438bca6b1214c48377bb1cc703301d9d01")]
 [assembly: System.Reflection.AssemblyProductAttribute("EverMoments-Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EverMoments-Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
