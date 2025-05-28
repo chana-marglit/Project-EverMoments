@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // כתובת ה-API של צד השרת (עדכני לפי הפרויקט שלך)
-const API_URL = 'VITE_API_BASE/Auth/api';
+const API_URL = import.meta.env.VITE_API_BASE + "/api";
 
 export interface RegisterData {
   firstName: string;
