@@ -1,7 +1,7 @@
 // import axios from 'axios';
 
 // // כתובת ה-API של צד השרת
-// const API_URL = 'http://localhost:5233/api'; // ודא שהכתובת נכונה
+// const API_URL = 'VITE_API_BASE/api'; // ודא שהכתובת נכונה
 
 // // יצירת מופע Axios עם הגדרות בסיסיות
 // export const apiClient = axios.create({
