@@ -10,11 +10,7 @@ namespace EverMoments_Core.Models
 {
     public class BaseEntity
     {
-        [Key]
-<<<<<<< HEAD
-=======
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
+      
         public int Id { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
