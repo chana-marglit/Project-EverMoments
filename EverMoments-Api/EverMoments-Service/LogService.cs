@@ -37,7 +37,7 @@ namespace EverMoments_Service
             return await _context.Logs
                 .Where(log => log.UserId == userId)
                 .ToListAsync();
-
+        }
 
         public async Task<int> CountLogsAsync()
         {
