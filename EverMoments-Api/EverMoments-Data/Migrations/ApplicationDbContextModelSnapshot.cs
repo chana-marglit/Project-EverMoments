@@ -258,7 +258,7 @@ namespace EverMoments_Data.Migrations
                         .WithMany("Images")
                         .HasForeignKey("AlbumId");
 
-                    b.HasOne("EverMoments_Core.Models.User", "UploadedBy")
+                    b.HasOne("EverMoments_Core.Models.User", "UploadedBy");
                     b.HasOne("EverMoments_Core.Models.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
