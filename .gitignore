@@ -1,0 +1,23 @@
+# Environment files
+appsettings.json
+*/appsettings.json
+**/appsettings.json
+appsettings.*.json
+
+# Build directories
+bin/
+obj/
+*/bin/
+*/obj/
+**/bin/
+**/obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# AWS Keys
+*.pem
