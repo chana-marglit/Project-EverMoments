@@ -15,11 +15,8 @@ namespace EverMoments_Core.Interfaces
         Task UpdateImageAsync(Image image);
         Task DeleteImageAsync(int id);
         Task<IEnumerable<Image>> SearchImagesAsync(int albumId, string searchTerm);
-<<<<<<< HEAD
         Task<IEnumerable<Image>> SearchImagesByTagAsync(string tag);
         Task<int> CountImagesAsync();
         Task ShareImageWithUsersAsync(int imageId, List<int> userIds);
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }
