@@ -1,9 +1,6 @@
-<<<<<<< HEAD
+
 ﻿using EverMoments_Core.DTOs;
 using EverMoments_Core.Models;
-=======
-﻿using EverMoments_Core.Models;
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 using System;
 using System.Collections.Generic;
 using System.Linq;
