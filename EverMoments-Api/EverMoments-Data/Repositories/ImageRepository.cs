@@ -67,7 +67,6 @@ namespace EverMoments_Data.Repositories
                 .OrderByDescending(i => i.CreatedAt)
                 .ToListAsync();
         }
-<<<<<<< HEAD
         public async Task<IEnumerable<Image>> SearchByTagAsync(string tag)
         {
             return await _context.Images
@@ -105,7 +104,5 @@ namespace EverMoments_Data.Repositories
         {
             await _context.SaveChangesAsync();
         }
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }
