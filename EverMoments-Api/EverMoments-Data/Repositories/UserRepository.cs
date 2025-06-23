@@ -54,7 +54,6 @@ namespace EverMoments_Data.Repositories
             await _context.SaveChangesAsync();
         }
 
-<<<<<<< HEAD
         public async Task<PagedResult<User>> GetPagedAsync(int page, int limit, string search = "")
         {
             var query = _context.Users.AsQueryable();
@@ -97,7 +96,5 @@ namespace EverMoments_Data.Repositories
                 .CountAsync();
         }
 
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }
