@@ -122,7 +122,8 @@ const App: React.FC = () => {
         </Routes>
       </div>
     <style dangerouslySetInnerHTML={{
-        .app-layout {
+      __html:
+        `.app-layout {
           min-height: 100vh;
         }
         
@@ -196,7 +197,10 @@ const App: React.FC = () => {
         .app-content {
           min-height: calc(100vh - 64px);
         }
-     }} />
+      `,
+     }} 
+      
+      />
     </Layout>
   )
 }
