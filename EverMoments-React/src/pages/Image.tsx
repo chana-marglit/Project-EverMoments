@@ -4,8 +4,6 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect, useCallback } from "react"
 import { Modal, message } from "antd"
 import axios from "axios"
-
-// API imports - ייבוא ספציפי כדי למנוע קונפליקטים
 import {
   fetchAlbumImages,
   searchImages,
@@ -17,14 +15,8 @@ import {
   saveImageMetadata,
   analyzeImage,
 } from "../api"
-
-// Share imports - ייבוא נפרד לשיתוף
 import { shareImageWithUsers } from "../api/share"
-
-// Types imports
 import type { ImageItem, User } from "../types"
-
-// Components
 import AlbumHeader from "../components/AlbumHeader"
 import ImageGrid from "../components/ImageGrid"
 import TagsEditor from "../components/TagsEditor"
@@ -32,8 +24,6 @@ import ShareModal from "../components/ShareModal"
 
 const AlbumView: React.FC = () => {
   const { id } = useParams<{ id: string }>()
-
-  // State
   const [images, setImages] = useState<ImageItem[]>([])
   const [allImages, setAllImages] = useState<ImageItem[]>([])
 
@@ -68,7 +58,6 @@ interface ImageItem {
 const AlbumView: React.FC = () => {
   const { id } = useParams<{ id: string }>()
   const [images, setImages] = useState<ImageItem[]>([])
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
   const [previewImage, setPreviewImage] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [uploading, setUploading] = useState(false)
@@ -76,14 +65,10 @@ const AlbumView: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>("")
   const [isSearching, setIsSearching] = useState(false)
   const [editingTags, setEditingTags] = useState<{ id: number; tags: string } | null>(null)
-
-  // Share modal state
   const [isShareModalOpen, setIsShareModalOpen] = useState(false)
   const [selectedImageId, setSelectedImageId] = useState<number | null>(null)
   const [selectedUserIds, setSelectedUserIds] = useState<number[]>([])
   const [userList, setUserList] = useState<User[]>([])
-
-  // Load images on component mount
   const [inputVisible, setInputVisible] = useState(false)
   const [inputValue, setInputValue] = useState("")
   useEffect(() => {
@@ -91,7 +76,6 @@ const AlbumView: React.FC = () => {
       loadImages()
     }
   }, [id])
-  // Debounced search effect
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       if (searchTerm.trim()) {
@@ -109,7 +93,6 @@ const AlbumView: React.FC = () => {
     try {
       setLoading(true)
       setError(null)
-<<<<<<< HEAD
 
       const albumImages = await fetchAlbumImages(Number.parseInt(id))
       const imageList = albumImages || []
@@ -155,8 +138,6 @@ const AlbumView: React.FC = () => {
         setLoading(true)
         setError(null)
         setIsSearching(true)
-
-        // חיפוש מקומי ראשון
         const localResults = allImages.filter(
           (image) =>
             image.fileName?.toLowerCase().includes(searchValue.toLowerCase()) ||
@@ -266,7 +247,6 @@ const AlbumView: React.FC = () => {
 
       // שלב 3: שמירת Metadata בשרת
       await apiClient.post("/images/save-metadata", {
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
         fileName: file.name,
         fileType: file.type,
         fileSize: file.size,
@@ -379,7 +359,6 @@ const AlbumView: React.FC = () => {
 
       message.success("התגיות עודכנו בהצלחה")
       setEditingTags(null)
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     } catch (error) {
       console.error("שגיאה בעדכון תגיות:", error)
       message.error("עדכון התגיות נכשל")
@@ -459,8 +438,6 @@ const AlbumView: React.FC = () => {
 
   if (!id) {
     return <div className="error-message">מזהה אלבום לא תקין</div>
-=======
-
     const tagList = editingTags.tags
       .split(",")
       .filter((tag) => tag.trim() !== "")
