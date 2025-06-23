@@ -10,14 +10,12 @@ namespace EverMoments_Core.Models
     public class Image : BaseEntity
     {
         [Required]
-<<<<<<< HEAD
         public int UserId { get; set; }
         public User? UploadedBy { get; set; }
 
         public int? AlbumId { get; set; }  
         public Album? Album { get; set; }
         public string FileName { get; set; }
-=======
         public int UserId { get; set; }  // נדרש כדי ליצור קשר עם User
         public User? User { get; set; }  // אין צורך ב-[ForeignKey] כאן
 
@@ -25,7 +23,6 @@ namespace EverMoments_Core.Models
         public Album? Album { get; set; }
         public string FileName { get; set; }
         // הוספת שדה תגיות
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 
         //[Required]
         //[MaxLength(255)]
@@ -38,13 +35,8 @@ namespace EverMoments_Core.Models
         public string? Tags { get; set; }
         public long FileSize { get; set; }
         public string S3Key { get; set; } = string.Empty;
-<<<<<<< HEAD
         public DateTime UploadedAt { get; set; }
 
         public ICollection<UserImageShare> SharedWithUsers { get; set; } = new List<UserImageShare>();
-=======
-        public DateTime UploadedAt { get; set; } 
-
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }
