@@ -20,13 +20,9 @@
     <ProjectReference Include="..\EverMoments-Data\EverMoments-Data.csproj" />
   </ItemGroup>
 
-<<<<<<< HEAD
   <ItemGroup>
     <None Update="credentials\vision-key.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 </Project>
