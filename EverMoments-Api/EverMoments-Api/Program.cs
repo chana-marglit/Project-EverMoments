@@ -105,10 +105,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();
 builder.Services.AddScoped<IImageRepository, ImageRepository>();
 builder.Services.AddScoped<ILogRepository, LogRepository>();
-<<<<<<< HEAD
 builder.Services.AddScoped<IShareRepository, ShareRepository>();
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 
 
 builder.Services.AddScoped<IUserService, UserService>();
@@ -116,10 +113,7 @@ builder.Services.AddScoped<IAlbumService, AlbumService>();
 builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ILogService, LogService>();
-<<<<<<< HEAD
 builder.Services.AddScoped<IShareService, ShareService>();
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 
 
 // === חיבור למסד נתונים ===
