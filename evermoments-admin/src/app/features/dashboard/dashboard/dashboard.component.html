@@ -1,0 +1,231 @@
+<!-- <div class="admin-layout" [class.sidebar-collapsed]="!isSidebarOpen">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1 class="logo">EverMoments</h1>
+        <button class="toggle-btn" (click)="toggleSidebar()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a routerLink="/dashboard" routerLinkActive="active">
+              <i class="fas fa-tachometer-alt"></i>
+              <span>דשבורד</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/users" routerLinkActive="active">
+              <i class="fas fa-users"></i>
+              <span>ניהול משתמשים</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/reports" routerLinkActive="active">
+              <i class="fas fa-chart-bar"></i>
+              <span>דוחות וסטטיסטיקות</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/logs" routerLinkActive="active">
+              <i class="fas fa-history"></i>
+              <span>יומן פעילות</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/settings" routerLinkActive="active">
+              <i class="fas fa-cog"></i>
+              <span>הגדרות מערכת</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+  
+    <div class="main-content">
+      <header class="main-header">
+        <div class="header-left">
+          <button class="toggle-sidebar-btn" (click)="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <h2 class="page-title">פאנל ניהול</h2>
+        </div>
+        
+        <div class="header-right">
+          <div class="user-menu">
+            <span class="user-name">{{ user?.firstName }} {{ user?.lastName }}</span>
+            <div class="user-dropdown">
+              <button class="logout-btn" (click)="logout()">
+                <i class="fas fa-sign-out-alt"></i>
+                התנתקות
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <main class="content">
+        <router-outlet></router-outlet>
+      </main>
+    </div>
+  </div>
+   -->
+   <div class="dashboard-container">
+    <div class="dashboard-header">
+      <h1 class="page-title">דשבורד</h1>
+      <button class="refresh-btn" (click)="refreshData()" [disabled]="loading">
+        <i class="fas fa-sync-alt" [class.spinning]="loading"></i>
+        רענן נתונים
+      </button>
+    </div>
+  
+    <div *ngIf="loading" class="loading-spinner">
+      <div class="spinner"></div>
+      <p>טוען נתונים...</p>
+    </div>
+  
+    <div *ngIf="error" class="error-message">
+      <i class="fas fa-exclamation-triangle"></i>
+      {{ error }}
+      <button class="retry-btn" (click)="refreshData()">נסה שוב</button>
+    </div>
+  
+    <div *ngIf="!loading && !error" class="dashboard-content">
+      <!-- כרטיסי סטטיסטיקה -->
+      <div class="stats-cards">
+        <div class="stat-card users-card">
+          <div class="stat-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="stat-content">
+            <h3>משתמשים</h3>
+            <p class="stat-value">{{ stats?.totalUsers || 0 | number }}</p>
+            <p class="stat-detail">
+              <span class="stat-change positive" *ngIf="(stats?.newUsersToday || 0) > 0">
+                +{{ stats?.newUsersToday || 0 }}
+              </span>
+              <span *ngIf="(stats?.newUsersToday || 0) === 0">{{ stats?.newUsersToday || 0 }}</span>
+              חדשים היום
+            </p>
+          </div>
+        </div>
+  
+        <div class="stat-card images-card">
+          <div class="stat-icon">
+            <i class="fas fa-images"></i>
+          </div>
+          <div class="stat-content">
+            <h3>תמונות</h3>
+            <p class="stat-value">{{ stats?.totalImages || 0 | number }}</p>
+            <p class="stat-detail">
+              <span class="stat-change positive" *ngIf="(stats?.newImagesThisWeek || 0) > 0">
+                +{{ stats?.newImagesThisWeek || 0 }}
+              </span>
+              <span *ngIf="(stats?.newImagesThisWeek || 0) === 0">{{ stats?.newImagesThisWeek || 0 }}</span>
+              חדשות השבוע
+            </p>
+          </div>
+        </div>
+  
+        <div class="stat-card albums-card">
+          <div class="stat-icon">
+            <i class="fas fa-folder"></i>
+          </div>
+          <div class="stat-content">
+            <h3>אלבומים</h3>
+            <p class="stat-value">{{ stats?.totalAlbums || 0 | number }}</p>
+            <p class="stat-detail">סה"כ אלבומים במערכת</p>
+          </div>
+        </div>
+  
+        <div class="stat-card storage-card">
+          <div class="stat-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="stat-content">
+            <h3>אחסון</h3>
+            <p class="stat-value">{{ formatBytes(stats?.totalStorage || 0) }}</p>
+            <p class="stat-detail">נפח אחסון כולל</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- גרפים וסטטיסטיקות נוספות -->
+      <div class="charts-container">
+        <div class="chart-card activity-chart">
+          <div class="chart-header">
+            <h3>פעילות 30 ימים אחרונים</h3>
+            <div class="chart-controls">
+              <button class="chart-btn active">30 ימים</button>
+              <button class="chart-btn">7 ימים</button>
+              <button class="chart-btn">היום</button>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <div class="chart-placeholder" *ngIf="!activityData.length">
+              <i class="fas fa-chart-line"></i>
+              <p>אין נתוני פעילות זמינים</p>
+              <small>נתונים יוצגו כאשר יהיה תנועה במערכת</small>
+            </div>
+            <!-- כאן תוכל להוסיף גרף אמיתי בעתיד -->
+            <div class="mock-chart" *ngIf="activityData.length">
+              <div class="chart-bars">
+                <div class="chart-bar" *ngFor="let item of activityData.slice(0, 7)" 
+                     [style.height.%]="(item.value / 100) * 80">
+                  <span class="bar-value">{{ item.value }}</span>
+                </div>
+              </div>
+              <div class="chart-labels">
+                <span *ngFor="let item of activityData.slice(0, 7)">{{ item.label }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="chart-card storage-chart">
+          <div class="chart-header">
+            <h3>פילוח שימוש באחסון</h3>
+          </div>
+          <div class="chart-wrapper">
+            <div class="chart-placeholder" *ngIf="!storageData.length">
+              <i class="fas fa-chart-pie"></i>
+              <p>אין נתוני אחסון זמינים</p>
+              <small>נתונים יוצגו כאשר יועלו תמונות</small>
+            </div>
+            <!-- כאן תוכל להוסיף גרף עוגה אמיתי בעתיד -->
+            <div class="storage-breakdown" *ngIf="storageData.length">
+              <div class="storage-item" *ngFor="let item of storageData">
+                <div class="storage-color" [style.background-color]="item.color"></div>
+                <span class="storage-label">{{ item.category }}</span>
+                <span class="storage-value">{{ formatBytes(item.size) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- סטטיסטיקות מהירות -->
+      <div class="quick-stats">
+        <div class="quick-stat-item">
+          <h4>משתמשים פעילים השבוע</h4>
+          <p class="quick-stat-value">{{ (stats?.totalUsers || 0) * 0.7 | number:'1.0-0' }}</p>
+        </div>
+        <div class="quick-stat-item">
+          <h4>העלאות היום</h4>
+          <p class="quick-stat-value">{{ (stats?.newImagesThisWeek || 0) / 7 | number:'1.0-0' }}</p>
+        </div>
+        <div class="quick-stat-item">
+          <h4>אלבומים חדשים השבוע</h4>
+          <p class="quick-stat-value">{{ (stats?.totalAlbums || 0) * 0.1 | number:'1.0-0' }}</p>
+        </div>
+        <div class="quick-stat-item">
+          <h4>ממוצע תמונות לאלבום</h4>
+          <p class="quick-stat-value">
+            {{ stats?.totalAlbums ? ((stats?.totalImages || 0) / stats.totalAlbums | number:'1.1-1') : 0 }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

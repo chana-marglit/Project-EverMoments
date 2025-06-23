@@ -1,0 +1,33 @@
+.app-container {
+    padding: 20px;
+    
+    nav {
+      margin: 20px 0;
+      
+      ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        gap: 15px;
+        
+        li a {
+          text-decoration: none;
+          padding: 5px 10px;
+          border-radius: 4px;
+          background-color: #f0f0f0;
+          color: #333;
+          
+          &:hover {
+            background-color: #e0e0e0;
+          }
+        }
+      }
+    }
+    
+    .content {
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      min-height: 300px;
+    }
+  }

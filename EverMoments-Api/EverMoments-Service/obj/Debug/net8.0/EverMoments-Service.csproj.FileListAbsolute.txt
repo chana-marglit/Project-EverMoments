@@ -1,0 +1,88 @@
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.deps.json
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.dll
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.dll
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.pdb
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.pdb
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfo.cs
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.sourcelink.json
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMome.35735322.Up2Date
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\refint\EverMoments-Service.dll
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Documents\Evermoments\Evermoments-API\EverMoments-Service\obj\Debug\net8.0\ref\EverMoments-Service.dll
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.deps.json
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.dll
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.dll
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.pdb
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.pdb
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfo.cs
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMome.35735322.Up2Date
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\refint\EverMoments-Service.dll
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Desktop\גיבוי פרויקט\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\ref\EverMoments-Service.dll
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.deps.json
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.dll
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.dll
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.pdb
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.pdb
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfo.cs
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.sourcelink.json
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMome.35735322.Up2Date
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\refint\EverMoments-Service.dll
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Desktop\finelEvermoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\ref\EverMoments-Service.dll
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.deps.json
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.dll
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.dll
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.pdb
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.pdb
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfo.cs
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.sourcelink.json
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMome.35735322.Up2Date
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\refint\EverMoments-Service.dll
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Desktop\EverMoments-FromGitHub\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\ref\EverMoments-Service.dll
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.deps.json
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.dll
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.dll
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Core.pdb
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\bin\Debug\net8.0\EverMoments-Data.pdb
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.AssemblyInfo.cs
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMome.35735322.Up2Date
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.dll
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\refint\EverMoments-Service.dll
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\EverMoments-Service.pdb
+C:\Users\User\Desktop\finelProject-everMoments\EverMoments-Api\EverMoments-Service\obj\Debug\net8.0\ref\EverMoments-Service.dll

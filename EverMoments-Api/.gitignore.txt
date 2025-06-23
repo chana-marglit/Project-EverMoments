@@ -1,0 +1,26 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Secrets and config
+appsettings.Development.json
+appsettings.Local.json
+**/appsettings.Development.json
+*.env
+
+## Logs
+*.log
+
+## Visual Studio
+.vscode/
+.vs/
+.DS_Store
+
+## Other
+TestResults/
