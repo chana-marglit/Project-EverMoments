@@ -50,9 +50,12 @@ namespace EverMoments_Service
             await _context.SaveChangesAsync();
             return true;
         }
+<<<<<<< HEAD
         public async Task<int> CountUsersAsync()
         {
             return await _context.Users.CountAsync();
         }
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }

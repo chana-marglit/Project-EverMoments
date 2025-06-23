@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using EverMoments_Core.DTOs;
 using EverMoments_Core.Models;
+=======
+﻿using EverMoments_Core.Models;
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 using EverMoments_Core.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -50,6 +54,7 @@ namespace EverMoments_Data.Repositories
             await _context.SaveChangesAsync();
         }
 
+<<<<<<< HEAD
         public async Task<PagedResult<User>> GetPagedAsync(int page, int limit, string search = "")
         {
             var query = _context.Users.AsQueryable();
@@ -92,5 +97,7 @@ namespace EverMoments_Data.Repositories
                 .CountAsync();
         }
 
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }

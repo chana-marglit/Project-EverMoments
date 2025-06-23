@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* סגנונות לדף האלבומים
+=======
+/* סגנונות לדף האלבומים */
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 .albums-container {
   max-width: 600px;
   margin: 0 auto;
@@ -85,7 +89,11 @@
 }
 
 /* סגנונות לדף התמונות */
+<<<<<<< HEAD
 /* .album-view-container {
+=======
+.album-view-container {
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
@@ -173,7 +181,11 @@
 }
 
 /* סגנונות לדף הבית */
+<<<<<<< HEAD
 /* .home-container {
+=======
+.home-container {
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
   min-height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -216,10 +228,17 @@
   height: auto;
   filter: drop-shadow(0 0 15px #00f5d4);
   margin-bottom: 20px;
+<<<<<<< HEAD
 } */
 
 /* סגנונות לדף התחברות והרשמה */
 /* .login-container,
+=======
+}
+
+/* סגנונות לדף התחברות והרשמה */
+.login-container,
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 .register-container {
   min-height: 100vh;
   display: flex;
@@ -276,10 +295,17 @@
 .register-button:hover {
   background-color: #028090 !important;
   border-color: #028090 !important;
+<<<<<<< HEAD
 } */
 
 /* תיקון תצוגה במובייל */
 /* @media (max-width: 768px) {
+=======
+}
+
+/* תיקון תצוגה במובייל */
+@media (max-width: 768px) {
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
   .albums-container,
   .album-view-container {
     padding: 15px;
@@ -352,7 +378,11 @@
   gap: 8px;
 }
 
+<<<<<<< HEAD
 
+=======
+/* תיקון תצוגה במובייל */
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 @media (max-width: 768px) {
   .actions-container {
     flex-direction: column;
@@ -366,5 +396,9 @@
   .search-section .ant-input-search {
     width: 100% !important;
   }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 

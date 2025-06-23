@@ -14,7 +14,10 @@ import { useSelector } from 'react-redux';
 import { Navigate, Outlet } from 'react-router-dom';
 import { RootState } from '../store/store';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 const PrivateRoute: React.FC = () => {
   // const isAuthenticated = useSelector((state: RootState) => state.auth.isAuthenticated);
   

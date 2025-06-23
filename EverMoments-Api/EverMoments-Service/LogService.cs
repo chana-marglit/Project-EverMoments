@@ -38,10 +38,13 @@ namespace EverMoments_Service
                 .Where(log => log.UserId == userId)
                 .ToListAsync();
         }
+<<<<<<< HEAD
 
         public async Task<int> CountLogsAsync()
         {
             return await _context.Logs.CountAsync();
         }
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }

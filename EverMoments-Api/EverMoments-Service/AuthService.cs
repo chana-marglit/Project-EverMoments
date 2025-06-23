@@ -32,7 +32,11 @@ namespace EverMoments_Service
             return new AuthResponse
             {
                 Token = GenerateJwtToken(user),
+<<<<<<< HEAD
                 FullName = $"{user.FirstName} {user.LastName}",
+=======
+                FullName = $"{user.FirstName} {user.LastName}"
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
             };
         }
 
@@ -47,8 +51,12 @@ namespace EverMoments_Service
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
+<<<<<<< HEAD
                 new Claim(ClaimTypes.Role, user.Role),
                 new Claim("id", user.Id.ToString())
+=======
+                new Claim(ClaimTypes.Role, user.Role)
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
             };
 
             var token = new JwtSecurityToken(
@@ -114,6 +122,7 @@ namespace EverMoments_Service
                 FullName = $"{newUser.FirstName} {newUser.LastName}"
             };
         }
+<<<<<<< HEAD
         //public async Task<string?> RegisterAsync(RegisterRequest request)
         //{
         //    var existingUser = await _userManager.FindByEmailAsync(request.Email);
@@ -139,5 +148,8 @@ namespace EverMoments_Service
         //    return await GenerateJwtToken(user);
         //}
 
+=======
+       
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }

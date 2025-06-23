@@ -14,6 +14,9 @@ namespace EverMoments_Core.Interfaces
         Task<User> CreateUserAsync(User user);
         Task<bool> UpdateUserAsync(User user);
         Task<bool> DeleteUserAsync(int id);
+<<<<<<< HEAD
         Task<int> CountUsersAsync();
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }

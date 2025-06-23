@@ -140,6 +140,7 @@ namespace EverMoments_Data.Migrations
                     b.ToTable("Logs");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("EverMoments_Core.Models.SharedImage", b =>
                 {
                     b.Property<int>("Id")
@@ -174,6 +175,8 @@ namespace EverMoments_Data.Migrations
                     b.ToTable("SharedImages");
                 });
 
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
             modelBuilder.Entity("EverMoments_Core.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -217,6 +220,7 @@ namespace EverMoments_Data.Migrations
                     b.ToTable("Users");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("EverMoments_Core.Models.UserImageShare", b =>
                 {
                     b.Property<int>("Id")
@@ -243,6 +247,8 @@ namespace EverMoments_Data.Migrations
                     b.ToTable("UserImageShares");
                 });
 
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
             modelBuilder.Entity("EverMoments_Core.Models.Album", b =>
                 {
                     b.HasOne("EverMoments_Core.Models.User", "User")
@@ -260,7 +266,11 @@ namespace EverMoments_Data.Migrations
                         .WithMany("Images")
                         .HasForeignKey("AlbumId");
 
+<<<<<<< HEAD
                     b.HasOne("EverMoments_Core.Models.User", "UploadedBy")
+=======
+                    b.HasOne("EverMoments_Core.Models.User", "User")
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -268,7 +278,11 @@ namespace EverMoments_Data.Migrations
 
                     b.Navigation("Album");
 
+<<<<<<< HEAD
                     b.Navigation("UploadedBy");
+=======
+                    b.Navigation("User");
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
                 });
 
             modelBuilder.Entity("EverMoments_Core.Models.Log", b =>
@@ -282,6 +296,7 @@ namespace EverMoments_Data.Migrations
                     b.Navigation("User");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("EverMoments_Core.Models.SharedImage", b =>
                 {
                     b.HasOne("EverMoments_Core.Models.Image", "Image")
@@ -328,16 +343,21 @@ namespace EverMoments_Data.Migrations
                     b.Navigation("User");
                 });
 
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
             modelBuilder.Entity("EverMoments_Core.Models.Album", b =>
                 {
                     b.Navigation("Images");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("EverMoments_Core.Models.Image", b =>
                 {
                     b.Navigation("SharedWithUsers");
                 });
 
+=======
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
             modelBuilder.Entity("EverMoments_Core.Models.User", b =>
                 {
                     b.Navigation("Albums");

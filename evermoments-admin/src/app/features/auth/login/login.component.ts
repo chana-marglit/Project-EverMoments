@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import { Component, type OnInit } from "@angular/core"
 // import { type FormBuilder, type FormGroup, Validators } from "@angular/forms"
 // import type { Router, ActivatedRoute } from "@angular/router"
@@ -65,6 +66,17 @@ import { finalize } from "rxjs/operators"
   selector: "app-login",
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
+=======
+import { Component, type OnInit } from "@angular/core"
+import { type FormBuilder, type FormGroup, Validators } from "@angular/forms"
+import type { Router, ActivatedRoute } from "@angular/router"
+
+import { finalize } from "rxjs/operators"
+import { AuthService } from "../../../core/services/auth.service"
+
+@Component({
+  selector: "app-login",
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
   templateUrl: "./login.component.html",
   styleUrls: ["./login.component.scss"],
 })
@@ -106,7 +118,11 @@ export class LoginComponent implements OnInit {
         next: () => {
           this.router.navigate([this.returnUrl])
         },
+<<<<<<< HEAD
         error: (err: any) => {
+=======
+        error: (err) => {
+>>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
           this.error = err.error?.message || "התחברות נכשלה. אנא בדוק את פרטי ההתחברות שלך."
         },
       })
