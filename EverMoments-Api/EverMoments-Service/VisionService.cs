@@ -11,10 +11,9 @@ namespace EverMoments_Service
 
         public VisionService()
         {
-<<<<<<< HEAD
-=======
+
             // ודאי שהגדרת את משתנה הסביבה GOOGLE_APPLICATION_CREDENTIALS
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
+
             _client = ImageAnnotatorClient.Create();
         }
 
