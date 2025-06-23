@@ -16,20 +16,11 @@ namespace EverMoments_Data
         public DbSet<Album> Albums { get; set; }
         public DbSet<Image> Images { get; set; }
         public DbSet<Log> Logs { get; set; }
-<<<<<<< HEAD
         public DbSet<UserImageShare> UserImageShares { get; set; }
         public DbSet<SharedImage> SharedImages { get; set; }
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) :
         base(options)
         { }
-<<<<<<< HEAD
-
-      
-
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
     }
 }
