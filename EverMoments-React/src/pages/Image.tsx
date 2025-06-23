@@ -1,27 +1,9 @@
-import React, { useEffect, useState, useCallback } from "react"
+"use client"
+
+import type React from "react"
+import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import {
-  Button,
-  Upload,
-  Typography,
-  Modal,
-  message,
-  Spin,
-  Empty,
-  Input,
-  Tag,
-  Tooltip,
-} from "antd"
-import {
-  UploadOutlined,
-  DeleteOutlined,
-  DownloadOutlined,
-  EyeOutlined,
-  SearchOutlined,
-  TagsOutlined,
-  CloseCircleOutlined,
-  PlusOutlined,
-} from "@ant-design/icons"
+import { Typography, Modal, message, Input } from "antd"
 import axios from "axios"
 import {
   fetchAlbumImages,
@@ -33,7 +15,6 @@ import {
   getUploadUrl,
   saveImageMetadata,
   analyzeImage,
-  apiClient,
 } from "../api/api"
 import { shareImageWithUsers } from "../api/share"
 import type { ImageItem, User } from "../types"
@@ -60,8 +41,6 @@ const AlbumView: React.FC = () => {
   const [selectedImageId, setSelectedImageId] = useState<number | null>(null)
   const [selectedUserIds, setSelectedUserIds] = useState<number[]>([])
   const [userList, setUserList] = useState<User[]>([])
-  const [inputVisible, setInputVisible] = useState(false)
-  const [inputValue, setInputValue] = useState("")
 
   useEffect(() => {
     if (id) {
@@ -178,11 +157,11 @@ const AlbumView: React.FC = () => {
     setEditingTags({ id: image.id, tags: image.tags || "" })
   }
 
-  const handleTagsChange = async () => {
+  const handleSaveTags = async (tags: string) => {
     if (!editingTags) return
     try {
       setLoading(true)
-      await updateImageTags(editingTags.id, editingTags.tags)
+      await updateImageTags(editingTags.id, tags)
       await loadImages()
       setEditingTags(null)
       message.success("תגיות עודכנו")
@@ -233,36 +212,19 @@ const AlbumView: React.FC = () => {
     }
   }
 
-  const handleTagInputConfirm = () => {
-    if (inputValue && editingTags) {
-      const tags = editingTags.tags.split(",").map((t) => t.trim())
-      if (!tags.includes(inputValue.trim())) {
-        const newTags = [...tags, inputValue.trim()].join(",")
-        setEditingTags({ ...editingTags, tags: newTags })
-      }
-      setInputVisible(false)
-      setInputValue("")
-    }
-  }
-
-  const handleTagClose = (removedTag: string) => {
-    if (editingTags) {
-      const tags = editingTags.tags
-        .split(",")
-        .filter((tag) => tag.trim() !== removedTag.trim())
-        .join(",")
-      setEditingTags({ ...editingTags, tags })
-    }
-  }
-
   const renderTagsEditor = () => {
     if (!editingTags) return null
+    return <TagsEditor tags={editingTags.tags} onSave={handleSaveTags} onCancel={() => setEditingTags(null)} />
+  }
+
+  // בדיקה שה-id קיים לפני השימוש
+  if (!id) {
     return (
-      <TagsEditor
-        tags={editingTags.tags}
-        onSave={handleTagsChange}
-        onCancel={() => setEditingTags(null)}
-      />
+      <div className="album-view-container">
+        <div className="error-message">
+          <p>מזהה אלבום לא תקין</p>
+        </div>
+      </div>
     )
   }
 
@@ -298,13 +260,7 @@ const AlbumView: React.FC = () => {
         renderTagsEditor={renderTagsEditor}
       />
 
-      <Modal
-        open={!!previewImage}
-        footer={null}
-        onCancel={() => setPreviewImage(null)}
-        width="90%"
-        centered
-      >
+      <Modal open={!!previewImage} footer={null} onCancel={() => setPreviewImage(null)} width="90%" centered>
         <img
           alt="תצוגה מקדימה"
           style={{ width: "100%", maxHeight: "80vh", objectFit: "contain" }}
