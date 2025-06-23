@@ -1,10 +1,8 @@
 ﻿using EverMoments_Core.Interfaces;
 using EverMoments_Core.Models;
 using EverMoments_Core.Repositories;
-<<<<<<< HEAD
+
 using Google.Api;
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -52,7 +50,6 @@ namespace EverMoments_Service
         {
             return await _imageRepository.SearchAsync(albumId, searchTerm);
         }
-<<<<<<< HEAD
         public async Task<IEnumerable<Image>> SearchImagesByTagAsync(string tag)
         {
             return await _imageRepository.SearchByTagAsync(tag);
@@ -76,8 +73,6 @@ namespace EverMoments_Service
             await _imageRepository.SaveChangesAsync();
         }
 
-=======
->>>>>>> fb84175d8ee8c740d20b5bbc67b3803ead778611
 
     }
 }
