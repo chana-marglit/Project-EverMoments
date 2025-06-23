@@ -6,10 +6,8 @@ import { Avatar, Spin, Layout, Menu, Dropdown } from "antd"
 import { UserOutlined, LogoutOutlined, HomeOutlined, PictureOutlined, ShareAltOutlined } from "@ant-design/icons"
 import type { RootState } from "./store/store"
 import { login, logout, setLoading } from "./store/authSlice"
-import { UserOutlined, LogoutOutlined, HomeOutlined, PictureOutlined } from "@ant-design/icons"
 import type { RootState } from "./store/store"
 import { login, logout, setLoading } from "./store/authSlice"
-import { getStoredUser } from "./api/api"
 import HomePage from "./pages/HomePage"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
@@ -123,8 +121,7 @@ const App: React.FC = () => {
           </Route>
         </Routes>
       </div>
-      <style>{`
-      <style >{`
+    <style dangerouslySetInnerHTML={{
         .app-layout {
           min-height: 100vh;
         }
@@ -199,7 +196,7 @@ const App: React.FC = () => {
         .app-content {
           min-height: calc(100vh - 64px);
         }
-      `}</style>
+     }} />
     </Layout>
   )
 }
