@@ -164,4 +164,5 @@ app.UseAuthorization();
 app.UseMiddleware<ExceptionMiddleware>();
 
 app.MapControllers();
+app.MapGet("/", () => Results.Ok("ברוכה הבאה ל-EverMoments API!"));
 app.Run();
