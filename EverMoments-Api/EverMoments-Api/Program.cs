@@ -16,6 +16,20 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// שלב 1: המרת המחרוזת חזרה לקובץ JSON זמני
+var credsJsonBase64 = builder.Configuration["GOOGLE_APPLICATION_CREDENTIALS_JSON"];
+if (!string.IsNullOrEmpty(credsJsonBase64))
+{
+    var path = "/tmp/credentials.json"; // נתיב זמני על Linux/Render
+    var decodedBytes = Convert.FromBase64String(credsJsonBase64);
+    File.WriteAllBytes(path, decodedBytes);
+    Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path);
+    Console.WriteLine("✅ Google credentials file created at: " + path);
+}
+else
+{
+    Console.WriteLine("⚠️ GOOGLE_APPLICATION_CREDENTIALS_JSON is missing.");
+}
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 builder.WebHost.UseUrls($"http://*:{port}");
