@@ -2,6 +2,7 @@
 
 import type React from "react"
 import logo from '../assets/logo.png';
+import backgroundImage from '../assets/11.jpg';
 
 import { Button, Typography } from "antd"
 import { useNavigate } from "react-router-dom"
@@ -97,7 +98,7 @@ const HomePage: React.FC = () => {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-image: url('../assets/11.jpg');
+          background-image: url('(${backgroundImage})');
           background-size: cover;
           background-position: center;
           color: white;
