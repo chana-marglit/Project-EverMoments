@@ -1,6 +1,7 @@
 // "use client"
 
 import type React from "react"
+import logo from '../image/logo.png';
 
 import { Button, Typography } from "antd"
 import { useNavigate } from "react-router-dom"
@@ -14,7 +15,7 @@ const HomePage: React.FC = () => {
     <div className="home-container">
       <div className="hero-section">
         <div className="logo-container">
-          <img src="/image/logo.png" alt="EverMoments Logo" className="logo" />
+          <img src={logo) alt="EverMoments Logo" className="logo" />
         </div>
         <Title className="title">EverMoments</Title>
         <Paragraph className="subtitle">רגעים שנשארים לנצח</Paragraph>
