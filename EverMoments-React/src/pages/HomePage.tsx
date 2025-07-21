@@ -98,7 +98,7 @@ const HomePage: React.FC = () => {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-image: url('(${backgroundImage})');
+          backgroundImage: `url(${backgroundImage})`,
           background-size: cover;
           background-position: center;
           color: white;
