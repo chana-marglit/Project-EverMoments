@@ -14,6 +14,8 @@ import PrivateRoute from "./routes/PrivateRoute"
 import AlbumView from "./pages/Image"
 import SharedImages from "./pages/SharedImages"
 import { getStoredUser } from "./api/auth"
+import logo from '../assets/logo.png';
+
 
 // ✅ ייבוא הסגנונות - עכשיו הקבצים קיימים
 import "./styles/album-view.css"
@@ -63,7 +65,7 @@ const App: React.FC = () => {
       {isAuthenticated && (
         <Header className="app-header">
           <div className="header-logo" onClick={() => navigate("/albums")}>
-            <img src="/image/logo.png" alt="Logo" className="header-logo-img" />
+            <img src={logo} alt="Logo" className="header-logo-img" />
             <span className="header-logo-text">EverMoments</span>
           </div>
 
