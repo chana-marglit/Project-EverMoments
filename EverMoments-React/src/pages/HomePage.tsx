@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
     <div className="home-container">
       <div className="hero-section">
         <div className="logo-container">
-          <img src={logo) alt="EverMoments Logo" className="logo" />
+          <img src={logo} alt="EverMoments Logo" className="logo" />
         </div>
         <Title className="title">EverMoments</Title>
         <Paragraph className="subtitle">רגעים שנשארים לנצח</Paragraph>
@@ -70,7 +70,7 @@ const HomePage: React.FC = () => {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="/image/logo.png" alt="EverMoments Logo" className="footer-logo-img" />
+            <img src={logo} alt="EverMoments Logo" className="footer-logo-img" />
             <span className="footer-logo-text">EverMoments</span>
           </div>
 
