@@ -1,7 +1,7 @@
 // "use client"
 
 import type React from "react"
-import logo from '../image/logo.png';
+import logo from '../../../image/logo.png';
 
 import { Button, Typography } from "antd"
 import { useNavigate } from "react-router-dom"
