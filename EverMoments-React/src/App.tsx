@@ -14,7 +14,7 @@ import PrivateRoute from "./routes/PrivateRoute"
 import AlbumView from "./pages/Image"
 import SharedImages from "./pages/SharedImages"
 import { getStoredUser } from "./api/auth"
-import logo from '../assets/logo.png';
+import logo from './assets/logo.png';
 
 
 // ✅ ייבוא הסגנונות - עכשיו הקבצים קיימים
