@@ -32,7 +32,8 @@ namespace EverMoments_Service
                     BucketName = _bucketName,
                     Key = file.FileName,
                     InputStream = memoryStream,
-                    ContentType = file.ContentType
+                    ContentType = file.ContentType,
+                     CannedACL = S3CannedACL.PublicRead
                 };
 
                 await _s3Client.PutObjectAsync(uploadRequest);
