@@ -141,6 +141,28 @@ namespace EverMoments_Api.Controllers
             await _imageService.DeleteImageAsync(id);
             return NoContent();
         }
+        [HttpPost("analyze/{id}")]
+        public async Task<IActionResult> AnalyzeImage(int id)
+        {
+              var image = await _imageService.GetImageByIdAsync(id);
+
+              if (image == null)
+              {
+                   return NotFound();
+              }
+
+               var labels = await _visionService.DetectLabelsAsync(image.FileUrl);
+
+               image.Tags = string.Join(",", labels);
+
+               await _imageService.UpdateImageAsync(image);
+
+               return Ok(new
+               {
+                     message = "ניתוח AI הסתיים בהצלחה",
+                      labels
+                });
+         }
     }
 }
 
